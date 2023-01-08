@@ -1,0 +1,18 @@
+:root {
+    --color-b2: blue ;
+}
+
+.desc a {
+    color: var(--color-b2);
+    font-weight: 600; /* chữ đậm */
+}
+
+.list-item strong {
+    font-size: 2rem;
+    color: var(--color-b2);
+}
+
+.copyright a {
+    color: var(--color-b2);
+    font-weight: 600;
+}

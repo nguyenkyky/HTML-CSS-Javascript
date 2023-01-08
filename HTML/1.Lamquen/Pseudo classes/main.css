@@ -1,0 +1,54 @@
+.Box {
+    width: 100%;
+    height: 120px;
+    background-color: aquamarine;
+}
+
+h1:hover {
+    background-color: red;
+}
+
+.Box:active {
+    background-color: blue;
+}
+
+li:first-child {
+    color: antiquewhite;
+
+}
+
+li:last-child {
+    color: brown;
+}
+
+.Box::before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}
+
+.Box::after {
+    content: "Hello";
+    color: blue;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}
+
+h1::first-letter{
+    font-size: 50px;
+}
+
+h1::first-line {
+    color: blue;
+}
+
+
+/* selection = boi den */
+h1::selection {   
+    background-color: violet;
+    color: white;
+}
